@@ -6,13 +6,7 @@ Monorepo in this folder: **Express + TypeScript + PostgreSQL (Prisma)** API with
 
 ### 1. Database
 
-**Option A — Docker (recommended)**
-
-```bash
-docker compose up -d
-```
-
-**Option B — local PostgreSQL**  
+** local PostgreSQL**  
 Create a database named `assessment` and set `DATABASE_URL` in `backend/.env`.
 
 ### 2. Backend
